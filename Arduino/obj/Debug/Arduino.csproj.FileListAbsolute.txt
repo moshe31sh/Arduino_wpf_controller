@@ -1,0 +1,13 @@
+F:\c#\Arduino\Arduino\bin\Debug\Arduino.exe.config
+F:\c#\Arduino\Arduino\bin\Debug\Arduino.exe
+F:\c#\Arduino\Arduino\bin\Debug\Arduino.pdb
+F:\c#\Arduino\Arduino\obj\Debug\Arduino.csprojResolveAssemblyReference.cache
+F:\c#\Arduino\Arduino\obj\Debug\MainWindow.baml
+F:\c#\Arduino\Arduino\obj\Debug\MainWindow.g.cs
+F:\c#\Arduino\Arduino\obj\Debug\App.g.cs
+F:\c#\Arduino\Arduino\obj\Debug\Arduino_MarkupCompile.cache
+F:\c#\Arduino\Arduino\obj\Debug\Arduino.g.resources
+F:\c#\Arduino\Arduino\obj\Debug\Arduino.Properties.Resources.resources
+F:\c#\Arduino\Arduino\obj\Debug\Arduino.csproj.GenerateResource.Cache
+F:\c#\Arduino\Arduino\obj\Debug\Arduino.exe
+F:\c#\Arduino\Arduino\obj\Debug\Arduino.pdb

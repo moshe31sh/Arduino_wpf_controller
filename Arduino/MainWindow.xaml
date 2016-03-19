@@ -1,0 +1,27 @@
+﻿<Window x:Class="Arduino.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Arduino Controller" Height="400" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="184*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="89,121,0,0" Name="Dc_Inp"  TextWrapping="Wrap"  VerticalAlignment="Top" Width="151" Grid.ColumnSpan="2"/>
+        <Button Content="Dc" HorizontalAlignment="Left" Margin="30.333,121,0,0" Name="Dc_Btn" VerticalAlignment="Top" Width="75" Click="Dc_Btn_Click" Grid.Column="1" >
+            <Button.Effect>
+                <DropShadowEffect></DropShadowEffect>
+            </Button.Effect>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="89,164,0,0"  Name="Servo_Inp" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" Grid.ColumnSpan="2"/>
+        <Button Content="Servo" HorizontalAlignment="Left" Margin="30.333,162,0,0" Name="Servo_Btn" VerticalAlignment="Top" Width="75" Grid.Column="1">
+            <Button.Effect>
+                <DropShadowEffect></DropShadowEffect>
+            </Button.Effect>
+        </Button>
+        <Label Content="Rate" HorizontalAlignment="Left" Margin="92,54,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label Content="Port" HorizontalAlignment="Left" Margin="165,54,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2"/>
+        <ComboBox Name="Ports" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="171,78,0,0" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.158,-0.015" />
+        <ComboBox Name="Rates" HorizontalAlignment="Left" Margin="69,78,0,0" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.158,-0.015"/>
+    </Grid>
+</Window>
